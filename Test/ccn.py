@@ -16,4 +16,25 @@ from sklearn.metrics import precision_recall_curve
 
 
 
-#
+# Importing the dataset
+dataset = pd.read_csv('creditcard.csv')
+dataset.head()
+dataset.shape
+dataset.info()
+dataset.describe()
+dataset.isnull().sum()
+dataset.Class.value_counts()
+dataset.Class.value_counts(normalize=True)
+dataset.groupby('Class').mean()
+dataset.corr()
+dataset.corr()['Class'].sort_values()
+dataset.corr()['Class'].sort_values(ascending=False)
+dataset.corr()['Class'].sort_values(ascending=False).plot(kind='bar')
+plt.show()
+dataset.hist(figsize=(20,20))
+plt.show()
+X = dataset.iloc[:, :-1].values
+y = dataset.iloc[:, -1].values
+X.shape
+y.shape
+
