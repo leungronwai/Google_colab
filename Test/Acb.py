@@ -12,3 +12,9 @@ print(acb.get_acbs(1, 2))
 print(acb.get_acbs(1, 2, 3))
 print(acb.get_acbs(1, 2, 3, 4))
 print(acb.get_acbs(1, 2, 3, 4, 5))
+
+
+print(acb.get_acb_by_id(1))
+print(acb.get_acb_by_id(2))
+print(acb.get_acb_by_id(3))
+print(acb.get_acb_by_id(4))
