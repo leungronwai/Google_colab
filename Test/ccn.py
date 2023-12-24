@@ -16,6 +16,4 @@ from sklearn.metrics import precision_recall_curve
 
 
 
-# 你好我是陳冠廷 
-# 我是一個資訊工程學生 
-# 我想知道你有沒有在做CCN
+#
